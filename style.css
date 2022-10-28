@@ -18,6 +18,7 @@ body {
 .item img {
     margin-top: 10px;
     border-radius: 5px;
+    height: 160px;
     width: 150px;
     box-shadow: 0px 0px 2px 0px black;
     object-fit: cover;
@@ -25,7 +26,8 @@ body {
 }
 
 .item > h {
-    margin: 5px 0px;
+    font-size: small;
+    margin: 4px 0px;
 }
 
 .item {
@@ -44,6 +46,14 @@ body {
     display: none;
     top: 0;
     left: 0;
+}
+
+.full-img p {
+    color: #fff;
+    position: absolute;
+    top: 475px;
+    width: 389px;
+    text-align: center;
 }
 
 .full-img img{
